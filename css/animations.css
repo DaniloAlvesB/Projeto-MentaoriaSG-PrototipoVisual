@@ -1,0 +1,35 @@
+@keyframes flyelement {
+
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 10px;
+    }
+    100% {
+        top: 0px;
+    }
+    
+}
+.flyelement {
+    position: fixed;
+    animation: flyelement 3s infinite ease-in-out;
+}
+
+@keyframes flyelement2 {
+
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+    
+}
+.flyelement2 {
+    position: fixed;
+    animation: flyelement2 3s infinite ease-in-out;
+}
